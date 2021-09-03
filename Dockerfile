@@ -1,7 +1,7 @@
 # This is a Dockerfile
 
 # use the Rocker RStudio image for the R environment
-FROM rocker/rstudio:4.0.4
+FROM rocker/tidyverse:4.0.4
 
 # install the here package
 RUN Rscript -e 'install.packages("renv")'

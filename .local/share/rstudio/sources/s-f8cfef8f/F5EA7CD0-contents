@@ -1,0 +1,23 @@
+---
+title: "data_analysis"
+author: "Stefan Vermeent"
+date: "9/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+```
+
+
+
+```{r read_data, include = FALSE}
+data = read_csv(here("data", "raw_data.csv"))
+```
+
+
+```{r analysis, echo = FALSE}
+fit <- lm(data = data, y ~ x1 + x2)
+summary(fit)
+```
