@@ -1,12 +1,12 @@
 # docker_test
 My first try-out of Docker for reproducible science
 
-steps:
+### steps ###
 
-1. Follow the instructions at docs.docker.com/get-docker to download and install Docker. Make a note of the location as you will need it
-under step 3.
+1. Follow the instructions at docs.docker.com/get-docker to download and install Docker. 
 
-2. Clone or download the repository from https://github.com/StefanVermeent/docker_test.git to a local folder
+2. Clone or download the repository from https://github.com/StefanVermeent/docker_test.git to a local folder.
+Make a note of the location as you will need it under step 3.
 
 3. Open the terminal or PowerShell (on Windows) and type the following command:
 
